@@ -140,6 +140,9 @@ footer p {
     align-items: center;
   }
 
+  .daily-list {
+    list-style: none;
+  }
 
 
 
