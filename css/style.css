@@ -145,11 +145,5 @@ footer p {
     list-style: none;
   }
 
-  .hobby2 {
-    width: 180px;
-    margin-top: 14px;
-    display: flex;
-    justify-content: space-between;
-  }
 
 }
