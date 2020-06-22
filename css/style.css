@@ -79,6 +79,7 @@ img {
   margin-right: 18px;
 }
 
+
 .main-title {
   margin-left: 130px;
   margin-top: 50px;
@@ -144,6 +145,8 @@ footer p {
   .daily-list {
     list-style: none;
   }
-
+  .sub-content {
+    display: flex;
+  }
 
 }
