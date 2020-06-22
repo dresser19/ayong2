@@ -133,7 +133,8 @@ footer p {
   }
   /* HOME */
   .home-content {
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 15%;
   }
   .page-header {
     flex-direction: column;
