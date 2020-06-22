@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 img {
-    display: block;max-width: 100%; height: auto;}
+    max-width: 100%;
 }
 /* HEADER
 ----------------------------------------*/
@@ -146,7 +146,7 @@ footer p {
     list-style: none;
   }
   .sub-content {
-    display: flex;
-  }
+    display: block;max-width: 100%; height: auto;}
+    }
 
 }
