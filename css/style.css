@@ -54,6 +54,7 @@ img {
   padding: 0 4%;
 }
 
+
 /* home
 -----------------------------------------------------*/
 
@@ -97,6 +98,20 @@ article {
 }
 
 
+.daily-list a {
+    color: #432;
+}
+.daily-list a:hover {
+    color: #0bd;
+}
+
+.back a {
+    color: #432;
+}
+.back a:hover {
+    color: #0bd;
+}
+
 /* footer
 ----------------------------------------------------*/
 
@@ -136,6 +151,7 @@ footer p {
   .home-content {
     margin-top: 5%;
     margin-bottom: 15%;
+    text-transform: uppercase;
   }
   .page-header {
     flex-direction: column;
