@@ -21,7 +21,7 @@ img {
 ----------------------------------------*/
 
 .logo {
-  width: 150px;
+  width: 300px;
   margin-top: 14px;
 }
 
@@ -51,7 +51,7 @@ img {
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 0%;
+  padding: 0 4%;
 }
 
 
@@ -60,8 +60,7 @@ img {
 
 .home-content {
   text-align: center;
-  margin-top: 0%;
-  margin-bottom: 10%;
+  margin-top: 7%;
 }
 
 .home-content p {
@@ -77,8 +76,8 @@ img {
 }
 
 .main-page {
-  width: 600px;
-  margin-right: 0px;
+  width: 180px;
+  margin-right: 18px;
 }
 
 
@@ -87,34 +86,36 @@ img {
   margin-top: 50px;
 }
 
-/*
-#home {
-  background-image: linear-gradient(#c9ffbf, #ffafbd);
-  background-blend-mode: luminosity;
-  min-height: 100vh;
+article {
+  height: 80%;
 }
 
-#home {
-  background-image: linear-gradient(#ffffff, #00ffff);
-  background-blend-mode: luminosity;
-  background-color: rgba( 255, 255, 255, 0.5 );
-  min-height: 100vh;
-}
-*/
-
-#playlist{
+.daily-list {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
   list-style: none;
 }
-#playlist li a{
-  color: black;
-  text-decoration: none;
+
+
+.daily-list a {
+    color: #432;
 }
-#playlist .current-song a{
-  color:blue;
+.daily-list a:hover {
+    color: #0bd;
 }
 
+.back a {
+    color: #432;
+}
+.back a:hover {
+    color: #0bd;
+}
 
-
+.audio {
+  justify-content: center;
+  margin-top: 15px;
+}
 /* footer
 ----------------------------------------------------*/
 
@@ -136,17 +137,35 @@ footer p {
 
 @media (max-width: 600px) {
   .page-title {
-    font-size: 2.0rem;
+    font-size: 2.5rem;
+  }
+  .page-title2 {
+    font-size: 2.5rem;
   }
 
-
+  /* HEADER */
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {
+    margin: 0 20px;
+  }
   /* HOME */
   .home-content {
-    margin-top: 0%;
-    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-bottom: 15%;
     text-transform: uppercase;
   }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.main-page {
-  width: auto;
+  .daily-list {
+    list-style: none;
+  }
+  .sub-content {
+    display: block;max-width: 100%; height: auto;
+    }
 }
